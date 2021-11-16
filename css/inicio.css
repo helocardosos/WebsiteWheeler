@@ -1,0 +1,181 @@
+html,body{
+    margin:4;
+    padding:0;
+    width: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Bungee', sans-serif;
+    background: #A967FF;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #22006B;
+}
+.logo{
+    position: absolute;
+    width: 362px;
+    height: 200px;
+    left: 20px;
+    top: -61px;
+    background: url(ecbcd969-4f7e-40f0-985f-b857a706ea50_200x200.png);
+}
+.anuncio{
+    float: left;
+    line-height: 100px;
+    margin: 5;
+    position: absolute;
+    top: -20px;
+    bottom: 12px;
+    left: 200px;
+    padding: 0;
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+.anuncio ul{
+    list-style: none;
+}
+.anuncio ul li{
+    display: inline;
+}
+.anuncio ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: lighter;
+    padding: 0 80px;
+}
+.perfil{
+    position: absolute;
+    right: 30px;
+    top: 26px;
+    background: url(do-utilizador.png);
+}
+.pc{
+    position: relative;
+    left: -20px;
+    top:-155px;
+    transform: matrix(0.89, -0.46, 0.44, 0.89, 0, 0);
+}
+.iphone{
+    position: absolute;
+    left: 280px;
+    top: 195px;
+    transform: matrix(0.92, 0.41, -0.39, 0.91, 0, 0);
+}
+.livro{
+    position: absolute;
+    left: 210px;
+    top: 347px;
+    transform: matrix(0.95, -0.32, 0.31, 0.95, 0, 0);
+}
+.tesouras{
+    position: absolute;
+    left: 60px;
+    top: 455px;
+}
+.musica{
+    position: absolute;
+    left: 270px;
+    top: 555px;
+    transform: matrix(0.89, -0.46, 0.44, 0.89, 0, 0);
+}
+.camera{
+    position: absolute;
+    right: 235px;
+    top: 140px;
+    transform: matrix(0.87, -0.5, 0.48, 0.87, 0, 0);
+}
+.lampada{
+    position: absolute;
+    right: 35px;
+    top: 200px;
+}
+.chuva{
+    position: absolute;
+    right: 150px;
+    top: 320px;
+    transform: matrix(-0.76, 0.64, -0.66, -0.76, 0, 0);
+    opacity: 0.72;
+}
+.fone{
+    position: absolute;
+    right: 280px;
+    top: 470px;
+    transform: rotate(20.28deg);
+    opacity: 0.8;
+}
+.claquete{
+    position: absolute;
+    right: 105px;
+    top: 550px;
+    transform: rotate(12.85deg);
+}
+.header{
+    position: absolute;
+    font-family: 'Ribeye', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: lighter;
+}
+.header span {
+    font-size: 28px;
+    color: #31016D;
+    top: 20px;
+}
+.header h1{
+    text-size-adjust: -10px;
+    position: center;
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 86px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: #EBB0FF;
+}
+.header p{
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 0.22em;
+    line-height: 200%;
+    background-color: #DBADFF;
+    border-radius: 40px;
+}
+.header h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0.11em;
+    font-size: 16px;
+}
+.header a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    color: #5e0066;
+    letter-spacing: 0.11em;
+}
+.header h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 0.11em;
+    font-size: 16px;
+}
+.header a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    color: #5e0066;
+    letter-spacing: 0.11em;
+}

@@ -1,0 +1,161 @@
+html,body{
+    margin:4;
+    padding:0;
+    width: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Bungee', sans-serif;
+    background: #FFE1C5;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #22006B;
+}
+.logo{
+    position: absolute;
+    width: 362px;
+    height: 200px;
+    left: 20px;
+    top: -61px;
+    background: url(ecbcd969-4f7e-40f0-985f-b857a706ea50_200x200.png);
+}
+.anuncio{
+    float: left;
+    line-height: 100px;
+    margin: 5;
+    position: absolute;
+    top: -20px;
+    bottom: 12px;
+    left: 200px;
+    padding: 0;
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+.anuncio ul{
+    list-style: none;
+}
+.anuncio ul li{
+    display: inline;
+}
+.anuncio ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: lighter;
+    padding: 0 80px;
+}
+.perfil{
+    position: absolute;
+    right: 30px;
+    top: 26px;
+    background: url(do-utilizador.png);
+}
+.header_entrar{
+    position: relative;
+    top: 170px;
+    left: 48.3%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+form [type=text],[type=password] {
+    padding: 7px;
+    text-align: center;
+    position: relative;
+    left: 450PX;
+    width: 30%;;
+    top: 100px;
+    background: #eac4f8;
+    border: 1px solid rgba(0, 0, 0, 0.58);
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+}
+.botao {
+    position: relative;
+    left: 515px;
+    width: 20%;
+    top: 145px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    background: #81009b;
+    border: 1px solid rgba(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #EEEEEE;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 19px;
+}
+.possui{
+    position: relative;
+    width: 45%;
+    height: 20%;
+    left: 35.8%;
+    top: 160px;
+    font-family: 'Roboto', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 95%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.possui span{
+    font-family:'Roboto';
+    font-style: normal;
+}
+.possui a{
+    color: #d100fb;
+}
+.bordo{
+    position: absolute;
+    left: 230px;
+    top: 130px;
+    transform: matrix(0.92, 0.41, -0.39, 0.91, 0, 0);
+    opacity: 0.7;
+}
+.ferro{
+    position: absolute;
+    left: 60px;
+    top: 355px;
+    transform: rotate(20.28deg);
+}
+.flor{
+    position: absolute;
+    left: 210px;
+    top: 545px;
+}
+.fone{
+    position: absolute;
+    right: 300px;
+    top: 135px;
+    transform: rotate(20.28deg);
+    opacity:0.8
+}
+.reliquias{
+    position: absolute;
+    right: 65px;
+    top: 320px;
+    transform: rotate(20.28deg);
+    opacity: 0.9;
+}
+.yin{
+    position: absolute;
+    right: 195px;
+    top: 530px;
+    transform: rotate(15.85deg);
+}
